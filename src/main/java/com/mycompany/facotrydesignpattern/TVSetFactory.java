@@ -10,7 +10,7 @@ public class TVSetFactory {
     public TV getInstance(String str){
         
         switch (str){
-            case "4K":
+            case "4K": return new OledTV();
             case "8K":
             case "16K":
             case "LED": return new LedTV();
